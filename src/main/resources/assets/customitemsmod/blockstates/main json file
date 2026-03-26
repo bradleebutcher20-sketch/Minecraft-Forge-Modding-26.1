@@ -1,0 +1,16 @@
+This will hold all of the blockstates inside of it however you neeed to name them their names otherwise it won't work.
+example: name_item.json or name_block.json
+
+limestone_block.json
+{
+  "variants": {
+    "": { "model": "customitemsmod:block/limestone_block" }
+  }
+}
+
+limestone_ore.json
+{
+  "variants": {
+    "": { "model": "customitemsmod:block/limestone_ore" }
+  }
+}
