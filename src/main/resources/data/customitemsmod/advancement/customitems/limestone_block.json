@@ -1,0 +1,34 @@
+{
+  "parent": "customitemsmod:customitems/root",
+  "display": {
+    "icon": {
+      "id": "customitemsmod:limestone_block"
+    },
+    "title": {
+      "text": "Limestone Specialist"
+    },
+    "description": {
+      "text": "Craft a solid block of limestone."
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_limestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "customitemsmod:limestone"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "customitemsmod:limestone_block"
+    ]
+  }
+}
