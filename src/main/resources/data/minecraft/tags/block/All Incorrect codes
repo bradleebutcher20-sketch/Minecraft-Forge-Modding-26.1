@@ -1,0 +1,40 @@
+Name them each their correct names so like incorrect_for_customtool_tool.json and the code but set your value to your
+mod and to your ore or block
+
+incorrect_for_copper_tool.json
+{
+  "values": ["customitemsmod:limestone_ore"]
+}
+
+incorrect_for_diamond_tool.json
+{
+  "values": ["customitemsmod:limestone_ore"]
+}
+
+incorrect_for_iron_tool.json
+{
+  "values": ["customitemsmod:limestone_ore"]
+}
+
+incorrect_for_netherite_tool.json
+{
+  "values": ["customitemsmod:limestone_ore"]
+}
+
+incorrect_for_stone_tool.json
+{
+  "values": ["customitemsmod:limestone_ore"]
+}
+
+incorrect_for_wooden_tool.json
+{
+  "values": ["customitemsmod:limestone_ore"]
+}
+
+needs_iron_tool.json
+{
+  "replace": false,
+  "values": [
+    "customitemsmod:limestone_ore"
+  ]
+}
