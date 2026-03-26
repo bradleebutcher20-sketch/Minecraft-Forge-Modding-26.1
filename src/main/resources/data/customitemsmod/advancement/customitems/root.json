@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "id": "customitemsmod:limestone"
+    },
+    "title": {
+      "text": "Limestone Discovery"
+    },
+    "description": {
+      "text": "The foundation of your journey."
+    },
+    "background": "minecraft:gui/advancements/backgrounds/stone",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "has_limestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "customitemsmod:limestone"
+          }
+        ]
+      }
+    }
+  }
+}
